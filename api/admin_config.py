@@ -540,7 +540,7 @@ FIELDS: tuple[ConfigFieldSpec, ...] = (
         "runtime",
         "number",
         settings_attr="port",
-        default="8082",
+        default="8085",
         restart_required=True,
     ),
     ConfigFieldSpec(
